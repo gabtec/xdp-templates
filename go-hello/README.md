@@ -1,6 +1,7 @@
-# GO-HELLO
+# {{ .Name | upper }}
 
 This is a demo template.
+Stack: {{ .Profile }}
 
 ## Usage
 
@@ -10,5 +11,9 @@ make run
 
 # build
 make build
-./bin/hello
+./bin/app
 ```
+
+## Versions
+
+{{ .Version }}

@@ -1,3 +1,3 @@
-module github.com/gabtec/go-hello
+module github.com/gabtec/{{ .Name }}
 
 go 1.22.0

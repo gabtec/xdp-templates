@@ -1,5 +1,5 @@
 BUILD_DIR:=build
-SERVICE_NAME:=hello
+SERVICE_NAME:=app
 
 lint: ## Run static analysis
 	@golangci-lint run -E goimports

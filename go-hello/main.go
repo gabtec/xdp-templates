@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	name := "Universe!"
+	name := "{{ .Name }}"
 	fmt.Println("Hello " + name)
 }

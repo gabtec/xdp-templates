@@ -1,4 +1,4 @@
-# {{ .Name | upper }}
+# {{ .Name | ToUpper }}
 
 This is a demo template.
 Stack: {{ .Profile }}

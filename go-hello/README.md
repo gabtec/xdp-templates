@@ -14,6 +14,3 @@ make build
 ./bin/app
 ```
 
-## Versions
-
-{{ .Version }}
